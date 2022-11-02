@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
 
@@ -27,11 +27,11 @@ export default function Home() {
             </p>
             <div><button className="bg-[#FF5300] p-2 text-white shadow mt-[30px] w-[150px]">Contact Us</button></div>
           </div>
-          <div> <img src="/Frame 19.png" className=""/></div>
+          <div> <Image width={500} height={400} alt="icon" src="/Frame 19.png" className=""/></div>
         </div>
 
         <div className='absolute md:-right-[30px] top-[180px] -right-[70px]'>
-          <img src="/Socila Icon.png" className="rotate-90 w-[180px]"/>
+          <Image width={150} height={100} alt="icon" src="/Socila Icon.png" className="rotate-90 w-[180px]"/>
         </div>
 
       </header>
@@ -39,7 +39,7 @@ export default function Home() {
       <div className='md:h-[600px] flex items-center justify-center'>
         <div className="flex flex-col-reverse md:flex-row">
           <div>
-          <img src="/Image (1).png" className="w-[520px]"/>
+          <Image width={500} height={300} alt="icon" src="/Image (1).png" className=""/>
           </div>
           <div className="md:ml-[50px] md:w-[500px] px-2">
             <h1 className="font-bold text-3xl leading-[40px]">We Are  <span className='text-[#FF5300]'>Making<br/> Ideas Better</span> For Everyone</h1>
@@ -55,26 +55,26 @@ export default function Home() {
       </div>
 
 
-<div className="flex items-center justify-center md:-mt-[70px]">
+<div className="flex items-center justify-center md:-mt-[70px] mt-[50px] ">
   <div className="grid grid-cols-1 md:grid-cols-4 gap-[25px]">
 
-  <div className="flex flex-col items-center justify-center w-[200px] border border-2-gray px-2">
-    <img src="/Icon.png"/>
+  <div className="flex flex-col items-center justify-center md:w-[200px] border border-2-gray px-2">
+    <Image width={100} height={100} alt="icon" src="/Icon.png"/>
     <p className="text-center text-sm">World leader in consulting and finance</p>
     </div>
 
-    <div className="flex flex-col items-center justify-center w-[200px] border border-2-gray px-2">
-    <img src="/Icon (2).png"/>
+    <div className="flex flex-col items-center justify-center md:w-[200px] border border-2-gray px-2">
+    <Image width={100} height={100} alt="icon"src="/Icon (2).png"/>
     <p className="text-center text-sm">World leader in consulting and finance</p>
     </div>
 
-    <div className="flex flex-col items-center justify-center w-[200px] border border-2-gray px-2">
-    <img src="/Icon (3).png"/>
+    <div className="flex flex-col items-center justify-center md:w-[200px] border border-2-gray px-2">
+    <Image width={100} height={100} alt="icon" src="/Icon (3).png"/>
     <p className="text-center text-sm">World leader in consulting and finance</p>
     </div>
 
-    <div className="flex flex-col items-center justify-center w-[200px] border border-2-gray p-2">
-    <img src="/Icon (1).png"/>
+    <div className="flex flex-col items-center justify-center md:w-[200px] border border-2-gray p-2">
+    <Image width={100} height={100} alt="icon"src="/Icon (1).png"/>
     <p className="text-center text-sm">World leader in consulting and finance</p>
     </div>
 
@@ -128,7 +128,7 @@ export default function Home() {
 
   <div className='grid grid-cols-1 md:grid-cols-3 gap-[30px] mt-[50px]'>
     <div className='relative shadow w-[250px] h-[250px] rounded p-2'>
-      <img src="/gaming.png"/>
+    <Image width={100} height={100} alt="icon" src="/gaming.png"/>
       <div><h2 className="font-bold mb-[5px] mt-[15px]">UX Design</h2>
       <p className="text-sm text-[#EFEFEF] mb-[15px]">Mobile App,Website</p>
       <p className="text-sm">Start by creating a new Next.js project if you don’t have one set
@@ -139,7 +139,7 @@ export default function Home() {
     </div>
 
     <div className='relative shadow w-[250px] h-[250px] rounded p-2'>
-      <img src="/digital-marketing.png"/>
+    <Image width={100} height={100} alt="icon" src="/digital-marketing.png"/>
       <div><h2 className="font-bold mb-[5px] mt-[15px]">Digital Marketing</h2>
       <p className="text-sm text-[#EFEFEF] mb-[15px]">Mobile App,Website</p>
       <p className="text-sm">Start by creating a new Next.js project if you don’t have one set
@@ -151,7 +151,7 @@ export default function Home() {
 
 
     <div className='relative shadow w-[250px] h-[250px] rounded p-2'>
-      <img src="/gaming.png"/>
+    <Image width={100} height={100} alt="icon" src="/gaming.png"/>
       <div><h2 className="font-bold mb-[5px] mt-[15px]">UX Design</h2>
       <p className="text-sm text-[#EFEFEF] mb-[15px]">Mobile App,Website</p>
       <p className="text-sm">Start by creating a new Next.js project if you don’t have one set
@@ -164,7 +164,7 @@ export default function Home() {
 
 
     <div className='relative shadow w-[250px] h-[250px] rounded p-2'>
-      <img src="/mobile-development.png"/>
+    <Image width={100} height={100} alt="icon"src="/mobile-development.png"/>
       <div><h2 className="font-bold mb-[5px] mt-[15px]">Mobile Development</h2>
       <p className="text-sm text-[#EFEFEF] mb-[15px]">Mobile App,Website</p>
       <p className="text-sm">Start by creating a new Next.js project if you don’t have one set
@@ -177,7 +177,7 @@ export default function Home() {
 
 
     <div className='relative shadow w-[250px] h-[250px] rounded p-2'>
-      <img src="/web-design.png"/>
+    <Image width={100} height={100} alt="icon" src="/web-design.png"/>
       <div><h2 className="font-bold mb-[5px] mt-[15px]">Web Design</h2>
       <p className="text-sm text-[#EFEFEF] mb-[15px]">Mobile App,Website</p>
       <p className="text-sm">Start by creating a new Next.js project if you don’t have one set
@@ -191,7 +191,7 @@ export default function Home() {
 
 
     <div className='relative shadow w-[250px] h-[250px] rounded p-2'>
-      <img src="/gaming.png"/>
+    <Image width={100} height={50} alt="icon" src="/gaming.png"/>
       <div><h2 className="font-bold mb-[5px] mt-[15px]">UX Design</h2>
       <p className="text-sm text-[#EFEFEF] mb-[15px]">Mobile App,Website</p>
       <p className="text-sm">Start by creating a new Next.js project if you don’t have one set
@@ -222,7 +222,7 @@ export default function Home() {
             <div><button className="bg-[#FF5300] p-2 text-white shadow mt-[30px] w-[150px]">Contact Us</button></div>
           </div>
           <div>
-          <img src="/Frame 20.png" className="w-[520px]"/>
+          <Image width={500} height={300} alt="icon" src="/Frame 20.png" className=""/>
           </div>
         </div>
 
@@ -236,28 +236,28 @@ export default function Home() {
 </div>
   <div className="grid grid-cols-1 md:grid-cols-4 gap-[20px] p-4">
     <div>
-      <img src="./Image (2).png"/>
+    <Image width={270} height={100} alt="icon" src="/Image (2).png"/>
       <div className="w-[270px] h-[70px] shadow flex flex-col items-center justify-center">
         <h3 className="font-bold mb-[10px]"> Talan Horrif</h3>
         <p className="text-[#D6D6D6] text-center  text-sm">Web developer</p>
       </div>
     </div>
     <div>
-    <img src="./Image (3).png"/>
+    <Image width={270} height={100} alt="icon" src="/Image (3).png"/>
       <div className="w-[270px] h-[70px] shadow flex flex-col items-center justify-center">
       <h3 className="font-bold mb-[10px]"> Talan Horrif</h3>
         <p className="text-[#D6D6D6] text-center  text-sm">Web developer</p>
       </div>
     </div>
     <div>
-    <img src="./Image (4).png"/>
+    <Image width={270} height={100} alt="icon" src="/Image (4).png"/>
       <div className="w-[270px] h-[70px] shadow flex flex-col items-center justify-center">
       <h3 className="font-bold mb-[10px]"> Philips Courtis</h3>
         <p className="text-[#D6D6D6] text-center  text-sm">App developer</p>
       </div>
     </div>
     <div>
-    <img src="./Image (3).png"/>
+    <Image width={270} height={100} alt="icon" src="/Image (3).png"/>
       <div className="w-[270px] h-[70px] shadow flex flex-col items-center justify-center">
       <h3 className="font-bold mb-[10px]"> Gustava Hertaiwz</h3>
         <p className="text-[#D6D6D6] text-center  text-sm">UIUX Designer</p>
@@ -281,22 +281,22 @@ export default function Home() {
 
 <div className="grid grid-cols-1 md:grid-cols-3 mt-[30px]">
   <div>
-    <img src="/Image@2x.png" className="w-[350px]"/>
+  <Image width={270} height={600} alt="icon" src="/pro.png" className="w-[350px]"/>
   </div>
   <div>
-    <img src="/Image@2x.png" className="w-[350px]"/>
+  <Image width={270} height={600} alt="icon" src="/Image@2x.png" className="w-[350px]"/>
   </div>
   <div>
-    <img src="/Image@2x.png" className="w-[350px]"/>
+  <Image width={270} height={600} alt="icon" src="/pro.png" className="w-[350px]"/>
   </div>
   <div>
-    <img src="/Image@2x.png" className="w-[350px]"/>
+  <Image width={270} height={600} alt="icon" src="/Image@2x.png" className="w-[350px]"/>
   </div>
   <div>
-    <img src="/Image@2x.png" className="w-[350px]"/>
+  <Image width={270} height={600} alt="icon" src="/Image@2x.png" className="w-[350px]"/>
   </div>
   <div>
-    <img src="/Image.png" className="w-[350px]"/>
+  <Image width={270} height={600} alt="icon" src="/Image.png" className="w-[350px]"/>
   </div>
 </div>
 
@@ -334,7 +334,7 @@ export default function Home() {
            
           </div>
           <div>
-          <img src="/Frame 21.png" className="w-[520px]"/>
+          <Image width={500} height={600} alt="icon" src="/Frame 21.png" className=""/>
           </div>
         </div>
 
@@ -351,7 +351,7 @@ export default function Home() {
 <div className="flex gap-[60px] flex-col md:flex-row">
   <div className="bg-[#FF5300] h-[200px] w-[350px] text-white relative px-4 ">
     <div className="flex gap-[40px] items-center">
-    <img src="/Image (5).png" className="-ml-[30px] mt-[30px]"/>
+    <Image width={80} height={100} alt="icon" src="/Image (5).png" className="-ml-[30px] mt-[30px]"/>
     <div><h2 className="font-bold">Josephine John</h2>
     <p className="text-sm">CEO</p></div>
     </div>
@@ -362,7 +362,7 @@ export default function Home() {
   </div>
   <div className="bg-[#FF5300] h-[200px] w-[350px] text-white px-4">
   <div className="flex gap-[40px] items-center">
-    <img src="/Profile.png" className="-ml-[30px] mt-[30px]"/>
+  <Image width={80} height={100} alt="icon" src="/Profile.png" className="-ml-[30px] mt-[30px]"/>
     <div><h2 className="font-bold">Josephine John</h2>
     <p className="text-sm">CEO</p></div>
     </div>
@@ -381,17 +381,17 @@ export default function Home() {
 </div>
 
 <div className="grid grid-cols-1 md:grid-cols-3 gap-[20px]">
-<div className="bg-white shadow w-[200px] h-[200px] flex flex-col items-center justify-center ">
+<div className="bg-white shadow md:w-[200px] h-[200px] flex flex-col items-center justify-center ">
   <div className="flex items-center ">
-    <img src="/mail.png"/>
+  <Image width={80} height={100} alt="icon" src="/mail.png"/>
     <div><h3 className="text-[#FF5300] ">Drop a line</h3>
     <h2 className=" font-bold">Mail Us</h2></div>
   </div>
   <div className="text-sm">infodigiency@gmail.com <br/>hikay123@gmail.com</div>
 </div>
-<div className="bg-white shadow w-[200px] h-[200px] flex flex-col items-center justify-center ">
+<div className="bg-white shadow md:w-[200px] h-[200px] flex flex-col items-center justify-center ">
   <div className="flex items-center ">
-    <img src="/map-pin.png"/>
+  <Image width={80} height={100} alt="icon" src="/map-pin.png"/>
     <div><h3 className="text-[#FF5300] ">Location</h3>
     <h2 className=" font-bold">Visit Us</h2></div>
   </div>
@@ -400,7 +400,7 @@ export default function Home() {
 
 <div className="bg-white shadow w-[200px] h-[200px] flex flex-col items-center justify-center ">
   <div className="flex items-center ">
-    <img src="/phone-call.png"/>
+  <Image width={80} height={100} alt="icon" src="/phone-call.png"/>
     <div><h3 className="text-[#FF5300] ">24/7 Services</h3>
     <h2 className=" font-bold">Call Us</h2></div>
   </div>
@@ -409,7 +409,7 @@ export default function Home() {
 
 </div>
 <div className='flex items-center justify-center flex-col md:flex-row'>
-  <img src="/Image (6).png"/>
+<Image width={600} height={300} alt="icon" src="/Image (6).png"/>
 
   <div>
   <div className="  flex flex-col items-center p-[30px]" id="contact">
@@ -440,12 +440,12 @@ export default function Home() {
 </div>
 <div className="grid grid-cols-1 md:grid-cols-3 gap-[10px] p-4">
   <div className="relative shadow md:w-[400px] p-4 bg-white">
-    <img src="/Image (7).png" className="absolute top-[10px] right-[10px] w-[100px]"/>
+  <Image width={80} height={100} alt="icon" src="/Image (7).png" className="absolute top-[10px] right-[10px] w-[100px]"/>
     <div>
       <h2 className="text-sm mb-[20px] text-[#FF5300]">Graphics design</h2>
-      <h1 className="font-semibold text-1xl w-[250px]">Ridiculously powerful 2021 iPad Pro may drop this month</h1>
+      <h1 className="font-semibold text-1xl md:w-[250px]">Ridiculously powerful 2021 iPad Pro may drop this month</h1>
       <div className="flex mt-[15px] gap-[15px]">
-      <img src="/Profile (1).png" className="w-[50px]"/>
+      <Image width={50} height={100} alt="icon" src="/Profile (1).png" className="w-[50px]"/>
       <div> <h2 className="font-bold text-sm">Christopher John</h2>
       <p className="text-sm text-[#D6D6D6]">{month} {day},{year}. 5 min read</p></div>
       </div>
@@ -453,12 +453,12 @@ export default function Home() {
 
   </div>
   <div className="relative shadow md:w-[400px] p-4 bg-white">
-    <img src="/Image (7).png" className="absolute top-[10px] right-[10px] w-[100px]"/>
+  <Image width={80} height={100} alt="icon" src="/Image (7).png" className="absolute top-[10px] right-[10px] w-[100px]"/>
     <div>
       <h2 className="text-sm mb-[20px] text-[#FF5300]">Graphics design</h2>
       <h1 className="font-semibold text-1xl w-[250px]">35 Stellar Graphic design Blogs to Keep You Educated and Inspired</h1>
       <div className="flex mt-[15px] gap-[15px]">
-      <img src="/Profile (1).png" className="w-[50px]"/>
+      <Image width={50} height={100} alt="icon" src="/Profile (1).png" className="w-[50px]"/>
       <div> <h2 className="font-bold text-sm">Christopher John</h2>
       <p className="text-sm text-[#D6D6D6]">{month} {day},{year} . 5 min read</p></div>
       </div>
@@ -466,12 +466,12 @@ export default function Home() {
 
   </div>
   <div className="relative shadow md:w-[400px] p-4 bg-white">
-    <img src="/Image (7).png" className="absolute top-[10px] right-[10px] w-[100px]"/>
+  <Image width={80} height={100} alt="icon" src="/Image (7).png" className="absolute top-[10px] right-[10px] w-[100px]"/>
     <div>
       <h2 className="text-sm mb-[20px] text-[#FF5300]">Graphics design</h2>
       <h1 className="font-semibold text-1xl w-[250px]">35 Stellar Graphic design Blogs to Keep You Educated and Inspired</h1>
       <div className="flex mt-[15px] gap-[15px]">
-      <img src="/Profile (1).png" className="w-[50px]"/>
+      <Image width={50} height={100} alt="icon" src="/Profile (1).png" className=""/>
       <div> <h2 className="font-bold text-sm">Christopher John</h2>
       <p className="text-sm text-[#D6D6D6]">{month} {day},{year} . 5 min read</p></div>
      
@@ -486,15 +486,15 @@ export default function Home() {
 </div>
 
 <div className='flex items-center justify-center mt-[70px]'>
-  <img src="/Map.png"/>
+<Image width={1000} height={300} alt="icon" src="/Map.png"/>
 </div>
 
 <div className="flex items-center justify-center">
   <div className="mt-[60px] grid grid-cols-4 gap-[50px] p-[40px]">
-  <img src="/Frame 1.png"/>
-  <img src="/Frame 2.png"/>
-  <img src="/Frame 3.png"/>
-  <img src="/Frame 4.png"/>
+  <Image width={200} height={100} alt="icon" src="/Frame 1.png"/>
+  <Image width={200} height={100} alt="icon"  src="/Frame 2.png"/>
+  <Image width={170} height={100} alt="icon"  src="/Frame 3.png"/>
+  <Image width={200} height={100} alt="icon"  src="/Frame 4.png"/>
   </div>
 </div>
      

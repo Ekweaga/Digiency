@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function Footer() {
   return (
     <>
@@ -11,7 +11,7 @@ function Footer() {
 
           <p className="text-sm mb-[20px]">Start by creating a new Next.js project if you don’t .
              The most common approach is to use Create Next App</p>
-             <img src="/Socila Icon.png"  className="h-[40px]"/>
+             <Image width={120} height={250} alt="icon" src="/Socila Icon.png"  className=""/>
         </div>
         <div>
           <h1 className=" font-bold mb-[20px]">Company</h1>
@@ -35,9 +35,9 @@ function Footer() {
         </div>
         <div>
           <h1 className=" font-bold mb-[20px]">Newsletter</h1>
-          <p className="text-sm">hgkdfdkfdkfdkfdfdfdffd</p>
+          <p className="text-sm">Join our waitlist for more info</p>
           <div className="flex items-center mt-[20px]">
-            <input type="email" placeholder='email' className='p-2 border border-2-[#FF5300] bg-transparent'/> <button className="bg-[#FF5300] text-white p-2 shadow w-[100px] flex items-center justify-center"><img src="/send-plane-fill.png"/></button>
+            <input type="email" placeholder='email' className='p-2 border border-2-[#FF5300] bg-transparent'/> <button className="bg-[#FF5300] text-white p-2 shadow w-[80px] flex items-center justify-center h-[42px]"><Image width={20} height={50} alt="icon" src="/send-plane-fill.png"/></button>
           </div>
         </div>
       </div>
